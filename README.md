@@ -1,5 +1,6 @@
 # P3_Sound_Follower
-![Figure1](./images/Figure1.png)
+<img src="./images/Figure1.png" alt="error with loading the image" width="500" />
+
 The overall structure of the program is in main.c,
 but it doesn't contain the entire program.
 
