@@ -1,8 +1,13 @@
 # P3_Sound_Follower
 <img src="./images/Figure1.png" alt="error with loading the image" width="500" />
 
-The overall structure of the program is in main.c,
-but it doesn't contain the entire program.
+https://github.com/ttwag/P3_Sound_Follower/assets/113254272/8ed2ba37-40fd-48aa-8de7-3d279f86dcb7
+
+In this project, me and my partner built a robot that follows sound source in real-time.
+
+The image above shows the entire robot along with the added sound receiver circuit.
+
+The video above shows how PWM signals could instruct the RSLK robot to move.
 
 ## Skills Involved
 * C Language
@@ -70,6 +75,8 @@ To determine if the sound source was in front of the microphone, the team though
 However, the sound difference between the left and right microphones was amplified when the robot got closer to the speaker, making it hard to determine the threshold since it’s a function of position and the speaker’s sound level. 
 
 One way to solve this problem could be to set the threshold as a percentage of the input average sound and only compare the percentages.
-
+## File Structure and Dependencies
+* The overall structure of the program is in main.c, but it doesn't contain the entire program.
+* This program requires numerous TI drivers and libraries.
 ## Helpful Links
 You can learn more about the library function [here](https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP432_Driver_Library/3_21_00_05/exports/driverlib/msp432_driverlib_3_21_00_05/doc/MSP432P4xx/html/driverlib_html/modules.html)
