@@ -23,6 +23,10 @@ This project uses the Texas Instrument's RSLK Learning Kit, and we programmed th
 
 The analog sound receiver (yellow board in the picture) was soldered by me and my teammate.
 
+We used numerous lab instruments in Kemper Hall to test and debugg the circuit.
+
+![Figure8](./images/Figure8.jpeg)
+
 ## Summary
 We build an analog sound receiver circuit that converts the environment's sound into a voltage waveform, and then the analog-to-digital converter in the microcontroller samples the analog waveform into digital values. We programmed the microcontroller to digitally filter out the low and high-frequency sampled values and calculate the direction where the highest values come from. It then moves toward that direction by sending a pulse-width modulated signal to the motor.
 
